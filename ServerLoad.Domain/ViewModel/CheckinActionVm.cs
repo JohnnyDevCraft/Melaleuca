@@ -1,7 +1,7 @@
 ﻿using System;
 namespace ServerLoad.Domain.ViewModel
 {
-	public class CheckinActionVm
+    public class CheckinActionVm
 	{
 		public string ServerName { get; set; }
 		public DateTime SampleTime { get; set; }

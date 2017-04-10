@@ -184,56 +184,59 @@ namespace ServerLoad.Logic
 		}
 
 
-
-
-		static List<AverageLoadVm> GetLast60Minutes(DateTime time, List<Checkin> checkins)
+	    private static List<AverageLoadVm> GetLast60Minutes(DateTime time, List<Checkin> checkins)
 		{
-			List<AverageLoadVm> list = new List<AverageLoadVm>();
+			var list = new List<AverageLoadVm>();
 
 			for (var i = -60; i < 0; i++)
 			{
 				var timeIndex = time.AddMinutes(i);
 
-				var avg = new AverageLoadVm()
-				{
-					AvgCpuLoad = checkins.Where(c => c.SampleTime > timeIndex &&
-									c.SampleTime < timeIndex.AddMinutes(1))
-								 .Average(c => c.CpuUtilization),
-					AvgMemLoad = checkins.Where(c => c.SampleTime > timeIndex &&
-									c.SampleTime < timeIndex.AddMinutes(1))
-								 .Average(c => c.RamUtilization),
-					TimeIndex = timeIndex,
-					Increment = 1
-				};
+			    var rv = checkins.Where(c => c.SampleTime > timeIndex &&
+			                        c.SampleTime < timeIndex.AddMinutes(1)).ToList();
 
-				list.Add(avg);
+			    if (!rv.Any()) continue;
+			    {
+			        var avg = new AverageLoadVm()
+			        {
+			            AvgCpuLoad = rv.Average(c => c.CpuUtilization),
+			            AvgMemLoad = rv.Average(c => c.RamUtilization),
+			            TimeIndex = timeIndex,
+			            Increment = 1
+			        };
+
+			        list.Add(avg);
+			    }
 			}
 
 			return list;
 		}
 
-		static List<AverageLoadVm> GetLast24Hours(DateTime time, List<Checkin> checkins)
+	    private static List<AverageLoadVm> GetLast24Hours(DateTime time, List<Checkin> checkins)
 		{
-			List<AverageLoadVm> list = new List<AverageLoadVm>();
+			var list = new List<AverageLoadVm>();
 
 			for (var i = -24; i < 0; i++)
 			{
 				var timeIndex = time.AddHours(i);
 
-				var avg = new AverageLoadVm()
-				{
-					AvgCpuLoad = checkins.Where(c => c.SampleTime > timeIndex &&
-								    c.SampleTime < timeIndex.AddHours(1))
-								 .Average(c => c.CpuUtilization),
-					AvgMemLoad = checkins.Where(c => c.SampleTime > timeIndex &&
-									c.SampleTime < timeIndex.AddHours(1))
-								 .Average(c => c.RamUtilization),
-					TimeIndex = timeIndex,
-					Increment = 1
-				};
+			    var rv = checkins.Where(c => c.SampleTime > timeIndex &&
+			                                 c.SampleTime < timeIndex.AddHours(1)).ToList();
 
-				list.Add(avg);
-			}
+
+			    if (!rv.Any()) continue;
+			    
+			    var avg = new AverageLoadVm()
+			    {
+			        AvgCpuLoad = rv.Average(c => c.CpuUtilization),
+			        AvgMemLoad = rv.Average(c => c.RamUtilization),
+			        TimeIndex = timeIndex,
+			        Increment = 1
+			    };
+
+			    list.Add(avg);
+
+            }
 
 			return list;
 		}
@@ -249,11 +252,11 @@ namespace ServerLoad.Logic
 			var first = new AverageLoadVm()
 			{
 				AvgCpuLoad = checkins.Where(c => c.SampleTime > start &&
-								c.SampleTime < start.AddMinutes(minutes))
-								 .Average(c => c.CpuUtilization),
+								c.SampleTime < start.AddMinutes(minutes))?
+								 .Average(c => c.CpuUtilization)??0.00D,
 				AvgMemLoad = checkins.Where(c => c.SampleTime > start &&
-								c.SampleTime < start.AddMinutes(minutes))
-								 .Average(c => c.RamUtilization),
+								c.SampleTime < start.AddMinutes(minutes))?
+								 .Average(c => c.RamUtilization)??0.00D,
 				TimeIndex = start,
 				Increment = minutes
 			};
@@ -264,14 +267,16 @@ namespace ServerLoad.Logic
 			{
 				var timeIndex = end.AddHours(i);
 
-				var avg = new AverageLoadVm()
+			    var rv = checkins.Where(c => c.SampleTime > timeIndex &&
+			                                 c.SampleTime < timeIndex.AddHours(1)).ToList();
+
+                if (!rv.Any()) continue;
+
+
+                var avg = new AverageLoadVm()
 				{
-					AvgCpuLoad = checkins.Where(c => c.SampleTime > timeIndex &&
-									c.SampleTime < timeIndex.AddHours(1))
-								 .Average(c => c.CpuUtilization),
-					AvgMemLoad = checkins.Where(c => c.SampleTime > timeIndex &&
-									c.SampleTime < timeIndex.AddHours(1))
-								 .Average(c => c.RamUtilization),
+					AvgCpuLoad = rv.Average(c => c.CpuUtilization),
+					AvgMemLoad = rv.Average(c => c.RamUtilization),
 					TimeIndex = timeIndex,
 					Increment = 60
 				};
@@ -287,21 +292,24 @@ namespace ServerLoad.Logic
 			var ts = end - start;
 			var minutes = ts.Minutes;
 
-			List<AverageLoadVm> list = new List<AverageLoadVm>();
+			var list = new List<AverageLoadVm>();
+
+		    
 
 
-			for (var i = minutes * -1; i < 0; i++)
+            for (var i = minutes * -1; i < 0; i++)
 			{
 				var timeIndex = end.AddMinutes(i);
 
+                var rv = checkins.Where(c => c.SampleTime > timeIndex &&
+		                                 c.SampleTime < timeIndex.AddMinutes(1)).ToList();
+
+                if(!rv.Any()) continue;
+
 				var avg = new AverageLoadVm()
 				{
-					AvgCpuLoad = checkins.Where(c => c.SampleTime > timeIndex &&
-									c.SampleTime < timeIndex.AddMinutes(1))
-								 .Average(c => c.CpuUtilization),
-					AvgMemLoad = checkins.Where(c => c.SampleTime > timeIndex &&
-									c.SampleTime < timeIndex.AddMinutes(1))
-								 .Average(c => c.RamUtilization),
+					AvgCpuLoad = rv.Average(c => c.CpuUtilization),
+					AvgMemLoad = rv.Average(c => c.RamUtilization),
 					TimeIndex = timeIndex,
 					Increment = 1
 				};

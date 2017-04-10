@@ -3703,22 +3703,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/john/.nuget/packages/": {}
+    "C:\\Users\\ra\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/john/Source/NetCore/ServerLoad/ServerLoad.Domain/ServerLoad.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\ra\\Source\\Repos\\Melaleuca\\ServerLoad.Domain\\ServerLoad.Domain.csproj",
       "projectName": "ServerLoad.Domain",
-      "projectPath": "/Users/john/Source/NetCore/ServerLoad/ServerLoad.Domain/ServerLoad.Domain.csproj",
-      "outputPath": "/Users/john/Source/NetCore/ServerLoad/ServerLoad.Domain/obj/",
+      "projectPath": "C:\\Users\\ra\\Source\\Repos\\Melaleuca\\ServerLoad.Domain\\ServerLoad.Domain.csproj",
+      "outputPath": "C:\\Users\\ra\\Source\\Repos\\Melaleuca\\ServerLoad.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.4"
       ],
-      "files": {
-        "lib/netstandard1.4/ServerLoad.Domain.dll": "/Users/john/Source/NetCore/ServerLoad/ServerLoad.Domain/bin/placeholder/netstandard1.4/ServerLoad.Domain.dll"
-      },
       "frameworks": {
         "netstandard1.4": {
           "projectReferences": {}
@@ -3730,7 +3727,8 @@
         "dependencies": {
           "NETStandard.Library": {
             "target": "Package",
-            "version": "1.6.1"
+            "version": "1.6.1",
+            "autoReferenced": true
           }
         }
       }

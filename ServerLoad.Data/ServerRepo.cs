@@ -10,6 +10,7 @@ namespace ServerLoad.Data
 	public class ServerRepo : IServerRepo
 	{
 		public static List<Server> _servers;
+        
 
 		static ServerRepo _instance;
 
@@ -50,20 +51,23 @@ namespace ServerLoad.Data
 
 		public bool AddServer(Server server)
 		{
-			try
-			{
-				if (_servers.Any(s => s.Name == server.Name))
-				{
-					throw new ArgumentException(string.Format(DataException.OBJECT_EXISTS, "Server"));
-				}
-				if (server.Checkins == null) server.Checkins = new List<Checkin>();
-				_servers.Add(server);
-				return true;
-			}
-			catch
-			{
-				throw new Exception(DataException.GENERAL_ERROR);
-			}
+		    lock (this)
+		    {
+		        try
+		        {
+		            if (_servers.Any(s => s.Name == server.Name))
+		            {
+		                throw new ArgumentException(string.Format(DataException.OBJECT_EXISTS, "Server"));
+		            }
+		            if (server.Checkins == null) server.Checkins = new List<Checkin>();
+		            _servers.Add(server);
+		            return true;
+		        }
+		        catch
+		        {
+		            throw new Exception(DataException.GENERAL_ERROR);
+		        }
+		    }
 		}
 
 		public bool ClearLogs(string serverName)

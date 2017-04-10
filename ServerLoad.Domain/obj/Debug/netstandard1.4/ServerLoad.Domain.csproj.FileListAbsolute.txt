@@ -5,3 +5,10 @@
 /Users/john/Source/NetCore/ServerLoad/ServerLoad.Domain/obj/Debug/netstandard1.4/ServerLoad.Domain.AssemblyInfo.cs
 /Users/john/Source/NetCore/ServerLoad/ServerLoad.Domain/obj/Debug/netstandard1.4/ServerLoad.Domain.dll
 /Users/john/Source/NetCore/ServerLoad/ServerLoad.Domain/obj/Debug/netstandard1.4/ServerLoad.Domain.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Domain\bin\Debug\netstandard1.4\ServerLoad.Domain.deps.json
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Domain\bin\Debug\netstandard1.4\ServerLoad.Domain.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Domain\bin\Debug\netstandard1.4\ServerLoad.Domain.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Domain\obj\Debug\netstandard1.4\ServerLoad.Domain.AssemblyInfo.cs
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Domain\obj\Debug\netstandard1.4\ServerLoad.Domain.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Domain\obj\Debug\netstandard1.4\ServerLoad.Domain.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Domain\obj\Debug\netstandard1.4\ServerLoad.Domain.csprojResolveAssemblyReference.cache

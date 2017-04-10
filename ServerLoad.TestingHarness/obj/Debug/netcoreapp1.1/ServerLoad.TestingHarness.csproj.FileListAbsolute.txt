@@ -1,0 +1,11 @@
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.TestingHarness\bin\Debug\netcoreapp1.1\ServerLoad.TestingHarness.deps.json
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.TestingHarness\bin\Debug\netcoreapp1.1\ServerLoad.TestingHarness.runtimeconfig.json
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.TestingHarness\bin\Debug\netcoreapp1.1\ServerLoad.TestingHarness.runtimeconfig.dev.json
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.TestingHarness\bin\Debug\netcoreapp1.1\ServerLoad.TestingHarness.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.TestingHarness\bin\Debug\netcoreapp1.1\ServerLoad.TestingHarness.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.TestingHarness\obj\Debug\netcoreapp1.1\ServerLoad.TestingHarness.csprojResolveAssemblyReference.cache
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.TestingHarness\obj\Debug\netcoreapp1.1\ServerLoad.TestingHarness.AssemblyInfo.cs
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.TestingHarness\obj\Debug\netcoreapp1.1\ServerLoad.TestingHarness.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.TestingHarness\obj\Debug\netcoreapp1.1\ServerLoad.TestingHarness.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.TestingHarness\bin\Debug\netcoreapp1.1\ServerLoad.Domain.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.TestingHarness\bin\Debug\netcoreapp1.1\ServerLoad.Domain.pdb

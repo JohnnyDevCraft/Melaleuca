@@ -12,3 +12,16 @@
 /Users/john/Source/NetCore/ServerLoad/ServerLoad.Val/obj/Debug/netstandard1.4/ServerLoad.Val.AssemblyInfo.cs
 /Users/john/Source/NetCore/ServerLoad/ServerLoad.Val/obj/Debug/netstandard1.4/ServerLoad.Val.dll
 /Users/john/Source/NetCore/ServerLoad/ServerLoad.Val/obj/Debug/netstandard1.4/ServerLoad.Val.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Val\bin\Debug\netstandard1.4\ServerLoad.Val.deps.json
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Val\bin\Debug\netstandard1.4\ServerLoad.Val.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Val\bin\Debug\netstandard1.4\ServerLoad.Val.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Val\bin\Debug\netstandard1.4\ServerLoad.Core.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Val\bin\Debug\netstandard1.4\ServerLoad.Data.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Val\bin\Debug\netstandard1.4\ServerLoad.Domain.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Val\bin\Debug\netstandard1.4\ServerLoad.Core.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Val\bin\Debug\netstandard1.4\ServerLoad.Domain.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Val\bin\Debug\netstandard1.4\ServerLoad.Data.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Val\obj\Debug\netstandard1.4\ServerLoad.Val.csprojResolveAssemblyReference.cache
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Val\obj\Debug\netstandard1.4\ServerLoad.Val.AssemblyInfo.cs
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Val\obj\Debug\netstandard1.4\ServerLoad.Val.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Val\obj\Debug\netstandard1.4\ServerLoad.Val.pdb

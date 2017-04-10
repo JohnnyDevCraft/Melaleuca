@@ -8,3 +8,12 @@
 /Users/john/Source/NetCore/ServerLoad/ServerLoad.Core/obj/Debug/netstandard1.4/ServerLoad.Core.AssemblyInfo.cs
 /Users/john/Source/NetCore/ServerLoad/ServerLoad.Core/obj/Debug/netstandard1.4/ServerLoad.Core.dll
 /Users/john/Source/NetCore/ServerLoad/ServerLoad.Core/obj/Debug/netstandard1.4/ServerLoad.Core.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Core\bin\Debug\netstandard1.4\ServerLoad.Core.deps.json
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Core\bin\Debug\netstandard1.4\ServerLoad.Core.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Core\bin\Debug\netstandard1.4\ServerLoad.Core.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Core\bin\Debug\netstandard1.4\ServerLoad.Domain.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Core\bin\Debug\netstandard1.4\ServerLoad.Domain.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Core\obj\Debug\netstandard1.4\ServerLoad.Core.csprojResolveAssemblyReference.cache
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Core\obj\Debug\netstandard1.4\ServerLoad.Core.AssemblyInfo.cs
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Core\obj\Debug\netstandard1.4\ServerLoad.Core.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Core\obj\Debug\netstandard1.4\ServerLoad.Core.pdb

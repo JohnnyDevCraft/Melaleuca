@@ -3745,15 +3745,15 @@
     ]
   },
   "packageFolders": {
-    "/Users/john/.nuget/packages/": {}
+    "C:\\Users\\ra\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/john/Source/NetCore/ServerLoad/ServerLoad.Val/ServerLoad.Val.csproj",
+      "projectUniqueName": "C:\\Users\\ra\\Source\\Repos\\Melaleuca\\ServerLoad.Val\\ServerLoad.Val.csproj",
       "projectName": "ServerLoad.Val",
-      "projectPath": "/Users/john/Source/NetCore/ServerLoad/ServerLoad.Val/ServerLoad.Val.csproj",
-      "outputPath": "/Users/john/Source/NetCore/ServerLoad/ServerLoad.Val/obj",
+      "projectPath": "C:\\Users\\ra\\Source\\Repos\\Melaleuca\\ServerLoad.Val\\ServerLoad.Val.csproj",
+      "outputPath": "C:\\Users\\ra\\Source\\Repos\\Melaleuca\\ServerLoad.Val\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.4"
@@ -3761,14 +3761,14 @@
       "frameworks": {
         "netstandard1.4": {
           "projectReferences": {
-            "/Users/john/Source/NetCore/ServerLoad/ServerLoad.Core/ServerLoad.Core.csproj": {
-              "projectPath": "/Users/john/Source/NetCore/ServerLoad/ServerLoad.Core/ServerLoad.Core.csproj"
+            "C:\\Users\\ra\\Source\\Repos\\Melaleuca\\ServerLoad.Core\\ServerLoad.Core.csproj": {
+              "projectPath": "C:\\Users\\ra\\Source\\Repos\\Melaleuca\\ServerLoad.Core\\ServerLoad.Core.csproj"
             },
-            "/Users/john/Source/NetCore/ServerLoad/ServerLoad.Domain/ServerLoad.Domain.csproj": {
-              "projectPath": "/Users/john/Source/NetCore/ServerLoad/ServerLoad.Domain/ServerLoad.Domain.csproj"
+            "C:\\Users\\ra\\Source\\Repos\\Melaleuca\\ServerLoad.Data\\ServerLoad.Data.csproj": {
+              "projectPath": "C:\\Users\\ra\\Source\\Repos\\Melaleuca\\ServerLoad.Data\\ServerLoad.Data.csproj"
             },
-            "/Users/john/Source/NetCore/ServerLoad/ServerLoad.Data/ServerLoad.Data.csproj": {
-              "projectPath": "/Users/john/Source/NetCore/ServerLoad/ServerLoad.Data/ServerLoad.Data.csproj"
+            "C:\\Users\\ra\\Source\\Repos\\Melaleuca\\ServerLoad.Domain\\ServerLoad.Domain.csproj": {
+              "projectPath": "C:\\Users\\ra\\Source\\Repos\\Melaleuca\\ServerLoad.Domain\\ServerLoad.Domain.csproj"
             }
           }
         }
@@ -3779,7 +3779,8 @@
         "dependencies": {
           "NETStandard.Library": {
             "target": "Package",
-            "version": "1.6.1"
+            "version": "1.6.1",
+            "autoReferenced": true
           }
         }
       }
