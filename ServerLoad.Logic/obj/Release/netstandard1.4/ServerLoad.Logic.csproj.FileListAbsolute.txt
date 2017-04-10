@@ -1,0 +1,15 @@
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Logic\bin\Release\netstandard1.4\ServerLoad.Logic.deps.json
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Logic\bin\Release\netstandard1.4\ServerLoad.Logic.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Logic\bin\Release\netstandard1.4\ServerLoad.Logic.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Logic\bin\Release\netstandard1.4\ServerLoad.Core.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Logic\bin\Release\netstandard1.4\ServerLoad.Data.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Logic\bin\Release\netstandard1.4\ServerLoad.Domain.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Logic\bin\Release\netstandard1.4\ServerLoad.Val.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Logic\bin\Release\netstandard1.4\ServerLoad.Core.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Logic\bin\Release\netstandard1.4\ServerLoad.Domain.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Logic\bin\Release\netstandard1.4\ServerLoad.Val.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Logic\bin\Release\netstandard1.4\ServerLoad.Data.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Logic\obj\Release\netstandard1.4\ServerLoad.Logic.csprojResolveAssemblyReference.cache
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Logic\obj\Release\netstandard1.4\ServerLoad.Logic.AssemblyInfo.cs
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Logic\obj\Release\netstandard1.4\ServerLoad.Logic.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Logic\obj\Release\netstandard1.4\ServerLoad.Logic.pdb

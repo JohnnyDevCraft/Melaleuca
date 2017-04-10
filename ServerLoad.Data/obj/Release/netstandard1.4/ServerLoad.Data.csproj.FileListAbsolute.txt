@@ -1,0 +1,11 @@
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Data\bin\Release\netstandard1.4\ServerLoad.Data.deps.json
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Data\bin\Release\netstandard1.4\ServerLoad.Data.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Data\bin\Release\netstandard1.4\ServerLoad.Data.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Data\bin\Release\netstandard1.4\ServerLoad.Core.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Data\bin\Release\netstandard1.4\ServerLoad.Domain.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Data\bin\Release\netstandard1.4\ServerLoad.Core.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Data\bin\Release\netstandard1.4\ServerLoad.Domain.pdb
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Data\obj\Release\netstandard1.4\ServerLoad.Data.csprojResolveAssemblyReference.cache
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Data\obj\Release\netstandard1.4\ServerLoad.Data.AssemblyInfo.cs
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Data\obj\Release\netstandard1.4\ServerLoad.Data.dll
+C:\Users\ra\Source\Repos\Melaleuca\ServerLoad.Data\obj\Release\netstandard1.4\ServerLoad.Data.pdb

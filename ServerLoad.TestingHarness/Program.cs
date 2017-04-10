@@ -94,7 +94,7 @@ namespace ServerLoad.TestingHarness
 
         static async Task PostCheckinAsync(string json, string serverName)
         {
-            var req = WebRequest.Create($"http://localhost:36254/api/server/{serverName}/checkin");
+            var req = WebRequest.Create($"http://serverloadwebapi20170410071434.azurewebsites.net/api/server/{serverName}/checkin");
             var enc = new UTF8Encoding(false);
             var data = enc.GetBytes(json);
 
@@ -113,7 +113,7 @@ namespace ServerLoad.TestingHarness
 
         static async Task GetLoadsAsync(string serverName)
         {
-            var req = WebRequest.Create($"http://localhost:36254/api/server/{serverName}/loads");
+            var req = WebRequest.Create($"http://serverloadwebapi20170410071434.azurewebsites.net/api/server/{serverName}/loads");
             var enc = new UTF8Encoding(false);
 
             req.Method = "GET";

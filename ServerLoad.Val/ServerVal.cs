@@ -24,7 +24,7 @@ namespace ServerLoad.Val
 
 		public R.ResultVm<bool> AddCheckin(string serverName, Checkin checkin)
 		{
-			var result = new R.ResultVm<bool>() { Data = true };
+			var result = new R.ResultVm<bool>().FromEmptyFailure();
 
 			Demand<string>.That(serverName, "serverName").HasNonEmptyValue().HasMaxChars(255).Result(result);
 			Demand<double>.That(checkin.RamUtilization, "checkin.RamUtilization").IsGreaterThan(0.0D).Result(result);
@@ -35,13 +35,11 @@ namespace ServerLoad.Val
 			{
 				try
 				{
-					result.Data = _repo.AddCheckin(serverName, checkin);
+					result = new ResultVm<bool>().FromSuccessObject(_repo.AddCheckin(serverName, checkin));
 				}
 				catch (Exception ex)
 				{
-					result.Errors.Add(ex.Message);
-					result.Result = "Failure";
-					result.Data = false;
+				    result = new ResultVm<bool>().FromException(ex);
 				}
 			}
 			else
@@ -81,7 +79,7 @@ namespace ServerLoad.Val
 
 		public R.ResultVm<bool> ClearLogs(string serverName)
 		{
-			var result = new R.ResultVm<bool>() { Data = true };
+			var result = new R.ResultVm<bool>().FromEmptyFailure();
 
 			Demand<string>.That(serverName, "serverName").HasNonEmptyValue().Result(result);
 
@@ -89,13 +87,12 @@ namespace ServerLoad.Val
 			{
 				try
 				{
-					result.Data = _repo.ClearLogs(serverName);
+					return new ResultVm<bool>().FromSuccessObject( _repo.ClearLogs(serverName));
 				}
 				catch (Exception ex)
 				{
-					result.Errors.Add(ex.Message);
-					result.Result = "Failure";
-					result.Data = false;
+				    return new ResultVm<bool>().FromException(ex);
+
 				}
 			}
 			else
@@ -108,7 +105,7 @@ namespace ServerLoad.Val
 
 		public R.ResultVm<ServerOnlyVm> GetServer(string name)
 		{
-			var result = new R.ResultVm<ServerOnlyVm>();
+			var result = new R.ResultVm<ServerOnlyVm>().FromEmptyFailure();
 
 			Demand<string>.That(name, "name").HasNonEmptyValue().Result(result);
 
@@ -116,12 +113,11 @@ namespace ServerLoad.Val
 			{
 				try
 				{
-					result = new ResultVm<ServerOnlyVm>().FromSuccessObject(_repo.GetServer(name).ToServerOnlyVm());
+					return new ResultVm<ServerOnlyVm>().FromSuccessObject(_repo.GetServer(name).ToServerOnlyVm());
 				}
 				catch (Exception ex)
 				{
-					result.Errors.Add(ex.Message);
-					result.Result = "Failure";
+				    return new ResultVm<ServerOnlyVm>().FromException(ex);
 				}
 			}
 
@@ -130,7 +126,7 @@ namespace ServerLoad.Val
 
 		public R.ResultVm<Server> GetServerMetrics(string serverName, DateTime start, DateTime end)
 		{
-			var result = new R.ResultVm<Server>();
+			var result = new R.ResultVm<Server>().FromEmptyFailure();
 
 			Demand<string>.That(serverName, "serverName").HasNonEmptyValue().Result(result);
 			Demand<DateTime>.That(start, "start").IsBefore(end).Result(result);
@@ -139,12 +135,11 @@ namespace ServerLoad.Val
 			{
 				try
 				{
-					result.Data = _repo.GetServerMetrics(serverName, start, end);
+					return new ResultVm<Server>().FromSuccessObject(_repo.GetServerMetrics(serverName, start, end));
 				}
 				catch (Exception ex)
 				{
-					result.Errors.Add(ex.Message);
-					result.Result = "Failure";
+				    return new ResultVm<Server>().FromException(ex);
 				}
 			}
 
@@ -153,18 +148,17 @@ namespace ServerLoad.Val
 
 		public R.ResultVm<List<ServerOnlyVm>> GetServers()
 		{
-			var result = new R.ResultVm<List<ServerOnlyVm>>();
+			var result = new R.ResultVm<List<ServerOnlyVm>>().FromEmptyFailure();
 
 			if (result.Errors.Count == 0)
 			{
 				try
 				{
-					result.Data = _repo.GetServers().Select(s => s.ToServerOnlyVm()).ToList();
+					return new ResultVm<List<ServerOnlyVm>>().FromSuccessObject(_repo.GetServers().Select(s => s.ToServerOnlyVm()).ToList());
 				}
 				catch (Exception ex)
 				{
-					result.Errors.Add(ex.Message);
-					result.Result = "Failure";
+				    return new ResultVm<List<ServerOnlyVm>>().FromException(ex);
 				}
 			}
 
@@ -173,7 +167,7 @@ namespace ServerLoad.Val
 
 		public R.ResultVm<bool> RemoveServer(string name)
 		{
-			var result = new R.ResultVm<bool>() { Data = true };
+			var result = new R.ResultVm<bool>().FromEmptyFailure();
 
 			Demand<string>.That(name, "name").HasNonEmptyValue().Result(result);
 
@@ -181,18 +175,12 @@ namespace ServerLoad.Val
 			{
 				try
 				{
-					result.Data = _repo.RemoveServer(name);
+					return new ResultVm<bool>().FromSuccessObject(_repo.RemoveServer(name));
 				}
 				catch (Exception ex)
 				{
-					result.Errors.Add(ex.Message);
-					result.Result = "Failure";
-					result.Data = false;
+				    return new ResultVm<bool>().FromException(ex);
 				}
-			}
-			else
-			{
-				result.Data = false;
 			}
 
 			return result;
@@ -200,7 +188,7 @@ namespace ServerLoad.Val
 
 		public R.ResultVm<bool> UpdateServer(string serverName, string address)
 		{
-			var result = new R.ResultVm<bool>() { Data = true };
+			var result = new R.ResultVm<bool>().FromEmptyFailure();
 
 			Demand<string>.That(serverName, "serverName").HasNonEmptyValue().Result(result);
 
@@ -208,18 +196,12 @@ namespace ServerLoad.Val
 			{
 				try
 				{
-					result.Data = _repo.UpdateServer(serverName, address);
+					return new ResultVm<bool>().FromSuccessObject(_repo.UpdateServer(serverName, address));
 				}
 				catch (Exception ex)
 				{
-					result.Errors.Add(ex.Message);
-					result.Result = "Failure";
-					result.Data = false;
+				    return new ResultVm<bool>().FromException(ex);
 				}
-			}
-			else
-			{
-				result.Data = false;
 			}
 
 			return result;

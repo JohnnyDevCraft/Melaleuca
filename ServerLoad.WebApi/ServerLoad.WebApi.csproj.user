@@ -13,5 +13,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>ServerLoadWebApi20170410071434 - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
