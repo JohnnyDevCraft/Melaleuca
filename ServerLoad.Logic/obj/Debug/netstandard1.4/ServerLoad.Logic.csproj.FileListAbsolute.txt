@@ -1,0 +1,16 @@
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Logic/bin/Debug/netstandard1.4/ServerLoad.Logic.deps.json
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Logic/bin/Debug/netstandard1.4/ServerLoad.Logic.dll
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Logic/bin/Debug/netstandard1.4/ServerLoad.Logic.pdb
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Logic/bin/Debug/netstandard1.4/ServerLoad.Core.dll
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Logic/bin/Debug/netstandard1.4/ServerLoad.Data.dll
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Logic/bin/Debug/netstandard1.4/ServerLoad.Domain.dll
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Logic/bin/Debug/netstandard1.4/ServerLoad.Val.dll
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Logic/bin/Debug/netstandard1.4/ServerLoad.Core.pdb
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Logic/bin/Debug/netstandard1.4/ServerLoad.Domain.pdb
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Logic/bin/Debug/netstandard1.4/ServerLoad.Val.pdb
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Logic/bin/Debug/netstandard1.4/ServerLoad.Data.pdb
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Logic/obj/Debug/netstandard1.4/ServerLoad.Logic.csprojResolveAssemblyReference.cache
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Logic/obj/Debug/netstandard1.4/ServerLoad.Logic.csproj.CoreCompileInputs.cache
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Logic/obj/Debug/netstandard1.4/ServerLoad.Logic.AssemblyInfo.cs
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Logic/obj/Debug/netstandard1.4/ServerLoad.Logic.dll
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Logic/obj/Debug/netstandard1.4/ServerLoad.Logic.pdb

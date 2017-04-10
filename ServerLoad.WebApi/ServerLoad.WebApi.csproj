@@ -14,4 +14,9 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ServerLoad.Core\ServerLoad.Core.csproj" />
+    <ProjectReference Include="..\ServerLoad.Domain\ServerLoad.Domain.csproj" />
+    <ProjectReference Include="..\ServerLoad.Logic\ServerLoad.Logic.csproj" />
+  </ItemGroup>
 </Project>

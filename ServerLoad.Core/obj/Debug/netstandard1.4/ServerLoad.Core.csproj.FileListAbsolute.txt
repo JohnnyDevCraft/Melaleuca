@@ -1,0 +1,10 @@
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Core/bin/Debug/netstandard1.4/ServerLoad.Core.deps.json
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Core/bin/Debug/netstandard1.4/ServerLoad.Core.dll
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Core/bin/Debug/netstandard1.4/ServerLoad.Core.pdb
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Core/bin/Debug/netstandard1.4/ServerLoad.Domain.dll
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Core/bin/Debug/netstandard1.4/ServerLoad.Domain.pdb
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Core/obj/Debug/netstandard1.4/ServerLoad.Core.csprojResolveAssemblyReference.cache
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Core/obj/Debug/netstandard1.4/ServerLoad.Core.csproj.CoreCompileInputs.cache
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Core/obj/Debug/netstandard1.4/ServerLoad.Core.AssemblyInfo.cs
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Core/obj/Debug/netstandard1.4/ServerLoad.Core.dll
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Core/obj/Debug/netstandard1.4/ServerLoad.Core.pdb

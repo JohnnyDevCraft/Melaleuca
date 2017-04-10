@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{024F5093-4A14-4CEF-A915-A3D2A0BBF5CD}|Default">
+  <MonoDevelop.Ide.ItemProperties.ServerLoad.WebApi PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ServerLoad.Logic.IntegrationTests/UnitTest1.cs">
+    <Files>
+      <File FileName="ServerLoad.Logic/ServerLogic.cs" Line="55" Column="1" />
+      <File FileName="ServerLoad.Val/ServerVal.cs" Line="56" Column="48" />
+      <File FileName="ServerLoad.WebApi/Controllers/ServerController.cs" Line="24" Column="1" />
+      <File FileName="ServerLoad.Core/Abstraction/Model/ResultVm.cs" Line="9" Column="32" />
+      <File FileName="ServerLoad.Core/Extension/Domain/Convert.cs" Line="10" Column="1" />
+      <File FileName="ServerLoad.Data/ServerRepo.cs" Line="38" Column="1" />
+      <File FileName="ServerLoad.Core/Abstraction/Val/IServerVal.cs" Line="14" Column="28" />
+      <File FileName="ServerLoad.Core/Constants.cs" Line="12" Column="107" />
+      <File FileName="ServerLoad.Core/Extension/Domain/ResultExtenders.cs" Line="19" Column="4" />
+      <File FileName="ServerLoad.Logic.IntegrationTests/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="ServerLoad.Logic.IntegrationTests/ServerLogicTests.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>this.Static</Value>
+          <Value>ServerRepo._servers</Value>
+          <Value>result.Result</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/john/Source/NetCore/ServerLoad/ServerLoad.Logic/ServerLogic.cs" relfile="ServerLoad.Logic/ServerLogic.cs" line="55" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="ServerLoad.Data/ServerRepo.cs" line="12" offsetX="395" offsetY="165" expression="ServerLoad.Data.ServerRepo._servers" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MultiItemStartupConfigurations />
+</Properties>

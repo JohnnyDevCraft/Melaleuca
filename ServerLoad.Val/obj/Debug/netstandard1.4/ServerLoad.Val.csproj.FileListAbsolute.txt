@@ -1,0 +1,14 @@
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Val/bin/Debug/netstandard1.4/ServerLoad.Val.deps.json
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Val/bin/Debug/netstandard1.4/ServerLoad.Val.dll
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Val/bin/Debug/netstandard1.4/ServerLoad.Val.pdb
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Val/bin/Debug/netstandard1.4/ServerLoad.Core.dll
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Val/bin/Debug/netstandard1.4/ServerLoad.Data.dll
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Val/bin/Debug/netstandard1.4/ServerLoad.Domain.dll
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Val/bin/Debug/netstandard1.4/ServerLoad.Core.pdb
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Val/bin/Debug/netstandard1.4/ServerLoad.Domain.pdb
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Val/bin/Debug/netstandard1.4/ServerLoad.Data.pdb
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Val/obj/Debug/netstandard1.4/ServerLoad.Val.csprojResolveAssemblyReference.cache
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Val/obj/Debug/netstandard1.4/ServerLoad.Val.csproj.CoreCompileInputs.cache
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Val/obj/Debug/netstandard1.4/ServerLoad.Val.AssemblyInfo.cs
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Val/obj/Debug/netstandard1.4/ServerLoad.Val.dll
+/Users/john/Source/NetCore/ServerLoad/ServerLoad.Val/obj/Debug/netstandard1.4/ServerLoad.Val.pdb

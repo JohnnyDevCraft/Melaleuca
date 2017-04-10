@@ -4,4 +4,19 @@
     <TargetFramework>netstandard1.4</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Abstraction\" />
+    <Folder Include="Extension\" />
+    <Folder Include="Extension\Domain\" />
+    <Folder Include="Abstraction\Data\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Abstraction\Val\" />
+    <Folder Include="Demand\" />
+    <Folder Include="Abstraction\Model\" />
+    <Folder Include="Abstraction\Logic\" />
+    <Folder Include="Extension\CoreModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ServerLoad.Domain\ServerLoad.Domain.csproj" />
+  </ItemGroup>
 </Project>
